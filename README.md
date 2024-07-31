@@ -1,30 +1,56 @@
-# React + TypeScript + Vite
+Sobre o Projeto
+Este projeto é uma aplicação de controle de tarefas no estilo to-do list, desenvolvida durante o curso da Rocketseat. A aplicação permite aos usuários gerenciar suas tarefas de forma eficiente e intuitiva, proporcionando uma experiência simples e funcional.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Funcionalidades
+A aplicação possui as seguintes funcionalidades:
 
-Currently, two official plugins are available:
+Adicionar uma nova tarefa: Permite que o usuário crie novas tarefas inserindo um texto descritivo.
+Marcar e desmarcar uma tarefa como concluída: Permite que o usuário altere o status de uma tarefa, indicando se ela foi concluída ou não.
+Remover uma tarefa da listagem: Permite que o usuário exclua tarefas indesejadas ou concluídas.
+Mostrar o progresso de conclusão das tarefas: Exibe um indicador visual que mostra o progresso geral das tarefas concluídas em relação ao total de tarefas.
+Tecnologias Utilizadas
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ReactJS: Biblioteca JavaScript para construção de interfaces de usuário.
+JavaScript (ES6+): Linguagem de programação principal usada no desenvolvimento.
+CSS: Utilizado para estilização da aplicação, garantindo uma interface amigável e responsiva.
+HTML: Linguagem de marcação utilizada para estruturar o conteúdo da aplicação.
+Conceitos Aplicados
+Durante o desenvolvimento deste projeto, foram aplicados diversos conceitos importantes do ReactJS, como:
 
-## Expanding the ESLint configuration
+Estados: Para gerenciar os dados da aplicação de forma dinâmica.
+Imutabilidade do Estado: Práticas para manter a integridade e previsibilidade dos estados.
+Listas e Chaves no ReactJS: Técnicas para renderizar listas de tarefas de forma eficiente e identificar cada item de maneira única.
+Componentização: Divisão da aplicação em componentes reutilizáveis e organizados.
+Como Executar o Projeto
+Para executar este projeto localmente, siga os passos abaixo:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Clone este repositório:
 
-- Configure the top-level `parserOptions` property like this:
+bash
+Copiar código
+git clone https://github.com/seu-usuario/seu-repositorio.git
+Navegue até o diretório do projeto:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+bash
+Copiar código
+cd seu-repositorio
+Instale as dependências:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+bash
+Copiar código
+npm install
+Inicie a aplicação:
+
+bash
+Copiar código
+npm start
+A aplicação estará disponível no endereço http://localhost:3000.
+
+Contribuição
+Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+Licença
+Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+Feito com ❤️ por Emerson.
